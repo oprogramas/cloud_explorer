@@ -10,7 +10,7 @@ data = {'column1': [1, 2, 3], 'column2': ['a', 'b', 'c']}
 df = pd.DataFrame(data)
 
 # definindo o id do projeto e o nome do dataset
-project_id = 'airflow-412821'
+project_id = 'airflow-000000'
 dataset_id = 'teste_airflow'
 table_id = 'tabela_dois_airflow'
 

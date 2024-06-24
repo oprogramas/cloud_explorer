@@ -5,7 +5,7 @@ from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateEmpt
 from datetime import datetime, timedelta
 import pandas as pd
 
-# Ycriação do dataframe
+# criação do dataframe
 data = {'column1': [1, 2, 3], 'column2': ['a', 'b', 'c']}
 df = pd.DataFrame(data)
 
